@@ -1,0 +1,18 @@
+{
+  "name": "lambda-cognito-flow-USER_SRP_AUTH",
+  "version": "1.0.0",
+  "description": "lambda-cognito-flow-USER_SRP_AUTH",
+  "main": "index.js",
+  "scripts": {
+    "index": "node -e \"console.log(require('./index').handler({}, {}));\"",
+    "signUp": "node -e \"console.log(require('./signUp').handler({ username: 'jairmondragon5', password: '12345678' }, {}));\"",
+    "login": "node -e \"console.log(require('./login').handler({ username: 'jairmondragon', password: '12345678' }, {}));\""
+  },
+  "author": "Jose Jair Mondragon Rios",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.3.2",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
