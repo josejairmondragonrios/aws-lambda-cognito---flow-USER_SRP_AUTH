@@ -11,7 +11,6 @@ npm install
 ```bash
 UserPoolId=
 AppClientId=
-AppClientSecret=
 ```
 
 ### Run index.js - local
