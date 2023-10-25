@@ -11,7 +11,7 @@
   "author": "Jose Jair Mondragon Rios",
   "license": "ISC",
   "dependencies": {
-    "amazon-cognito-identity-js": "^4.3.2",
+    "amazon-cognito-identity-js": "^4.6.3",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.0"
   }
